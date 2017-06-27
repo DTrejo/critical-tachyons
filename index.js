@@ -130,4 +130,10 @@ function test() {
     console.assert(critical)
     console.log('done')
   })
+
+  main('./test3.html', './test3.mintachyons.html', function onCSS(err, critical) {
+    console.assert(!err)
+    console.assert(critical)
+    console.log('done')
+  })
 }
