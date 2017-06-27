@@ -1,0 +1,37 @@
+{
+  "name": "criticaltachyons",
+  "version": "1.0.0",
+  "description": "given an html file, inlines only the tachyons classes used by the file",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "1.0.0-rc.1",
+    "css": "2.2.1",
+    "highland": "2.10.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DTrejo/critical-tachyons.git"
+  },
+  "keywords": [
+    "critical",
+    "css",
+    "juice",
+    "tachyons",
+    "inline",
+    "page",
+    "speed",
+    "optimization",
+    "page",
+    "speed"
+  ],
+  "author": "David Trejo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DTrejo/critical-tachyons/issues"
+  },
+  "homepage": "https://github.com/DTrejo/critical-tachyons#readme"
+}
