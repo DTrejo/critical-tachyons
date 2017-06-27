@@ -10,7 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node index.js"
+    "test": "TEST=1 node index.js"
   },
   "bin": {
     "critical-tachyons": "./index.js"
