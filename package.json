@@ -1,5 +1,5 @@
 {
-  "name": "criticaltachyons",
+  "name": "critical-tachyons",
   "version": "1.0.0",
   "description": "Given an html file, inlines only the tachyons classes used by the file. A simpler version of ghub.io/juice",
   "main": "index.js",
@@ -11,6 +11,9 @@
   "devDependencies": {},
   "scripts": {
     "test": "node index.js"
+  },
+  "bin": {
+    "critical-tachyons": "./index.js"
   },
   "repository": {
     "type": "git",
